@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="892ms"
+		durationms="892"
+		type="root"
+		rid="639e85fb51e6aa"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Casper"
+		rxversion="10.2.2.0"
+		host="KARDELEN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="4096x1087"
+		timestamp="19.06.2022 17:35:42"
+		timestampiso="2022-06-19T14:35:42"
+		endtime="19.06.2022 17:35:43"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.886"
+			timeRelativeToTestModuleStartTime="00:00.886"
+			timeWallClock="17:35:43"
+			time="00:00.886"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.932"
+			timeRelativeToTestModuleStartTime="00:00.932"
+			timeWallClock="17:35:43"
+			time="00:00.932"
+			level="Failure"
+			category="Module"
+			errimg="images_Case3_20_281274c1\Case3_20_281274c1_9bf71cc9_trace.jpg"
+			errthumb="images_Case3_20_281274c1\Case3_20_281274c1_9bf71cc9_trace_thumb.jpg">
+			<message>
+				İş parçacığı durduruluyordu.
+			</message>
+			<metainfo
+				stacktrace="   konum: System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   konum: System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   konum: System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   konum: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   konum: System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   konum: System.ComponentModel.ComponentResourceManager.ApplyResources(Object value, String objectName, CultureInfo culture)
+   konum: Infralution.Licensing.EvaluationDialog.InitializeComponent()
+   konum: Infralution.Licensing.EvaluationDialog..ctor()
+   konum: Infralution.Licensing.EvaluationDialog..ctor(String productName, String evaluationPassword, AuthenticatedLicense limitedTrial)
+   konum: Ranorex.Core.ElementEngine.CheckTrial(Boolean verbose, AuthenticatedLicense nodeLockedLicense, Boolean isLimitedTrial)
+   konum: Ranorex.Core.ElementEngine.CheckMachineLicense(Boolean verbose, AuthenticatedLicense nodeLockedLicense, NodeLockedLicenseStatus nodeLockedStatus)
+   konum: Ranorex.Core.ElementEngine.CheckLicense(Boolean verbose)
+   konum: Ranorex.Core.ElementEngine.AssertLicense()
+   konum: Ranorex.Core.ElementEngine..ctor()
+   konum: Ranorex.Core.ElementEngine.get_Instance()
+   konum: Ranorex.Core.Testing.TestModuleRunner.RunStandalone(ITestModule module, String reportFilename, Boolean generateReport, String standaloneModuleName, CaseInsensitiveString guid)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

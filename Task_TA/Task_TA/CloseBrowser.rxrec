@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="37fa9c59-8d64-4ee1-84cc-954521677128"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Task_TA">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="e40d8f8c-c623-4227-ba0a-bae03a2c0afe">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="158c1ef4-ac65-46cf-8b69-0c2a4971fdb4"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/toolbar[@accessiblename='Taray&#305;c&#305; sekmeleri']/button[@accessiblename='Kapat']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="4;28"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f853d362-003d-4d33-b2e7-5db29c218f13"
+		sx="2512"
+		sy="28"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="158c1ef4-ac65-46cf-8b69-0c2a4971fdb4"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="3"
+				prefcap="button"
+				rect="2508,0,46,43"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Kapat
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						press
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Kapat
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/toolbar[@accessiblename='Taray&#305;c&#305; sekmeleri']/button[@accessiblename='Kapat']
+				</path>
+				<robustPath>
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/toolbar[@accessiblename='Taray&#305;c&#305; sekmeleri']/button[@accessiblename='Kapat']
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="9e813110-034a-4cdf-b7db-ac296430e97c">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACgAQgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDD/s+9
+/wCfO4/79N/hR/Z97/z53H/fpv8ACu8ooA4P+z73/nzuP+/Tf4Uf2fe/8+dx/wB+m/wrvKKAOD/s
++9/587j/AL9N/hR/Z97/AM+dx/36b/Cu8ooA4P8As+9/587j/v03+FH9n3v/AD53H/fpv8K7yigD
+g/7Pvf8AnzuP+/Tf4Uf2fe/8+dx/36b/AArvKKAOD/s+9/587j/v03+FH9n3v/Pncf8Afpv8K7yi
+gDg/7Pvf+fO4/wC/Tf4U4WLgYk3Rv3VlwRXdVzuq/wDISl/D+QqJtpaHThYRnNqS6GR9h/6af+O0
+fYf+mn/jtXKKjml3O76vS/l/Mp/Yf+mn/jtH2H/pp/47Vyijml3D6vS/l/Mp/Yf+mn/jtNe02qx8
+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
+QAUUUUAFFFFABRRRQB//2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="3bd55c85-0911-4f3e-bd96-063144dcfbd8"
+	name="Task_TARepository"
+	relativepath="Task_TARepository.rxrep">
+		<codegen
+		classname="Task_TARepository"
+		namespace="Task_TA">
+		</codegen>
+		<rootfolder
+		id="94b6bcb2-24d6-4517-9c31-f2927da1e5ec"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

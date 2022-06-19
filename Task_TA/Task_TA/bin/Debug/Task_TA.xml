@@ -1,0 +1,1050 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Task_TA</name>
+    </assembly>
+    <members>
+        <member name="T:Task_TA.Case1">
+             <summary>
+            The Case1 recording.
+             </summary>
+        </member>
+        <member name="F:Task_TA.Case1.repo">
+            <summary>
+            Holds an instance of the Task_TARepository repository.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Case1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Task_TA.Case1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Task_TA.Case1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Case2">
+             <summary>
+            The Case2 recording.
+             </summary>
+        </member>
+        <member name="F:Task_TA.Case2.repo">
+            <summary>
+            Holds an instance of the Task_TARepository repository.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Case2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Task_TA.Case2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Task_TA.Case2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Case3">
+             <summary>
+            The Case3 recording.
+             </summary>
+        </member>
+        <member name="F:Task_TA.Case3.repo">
+            <summary>
+            Holds an instance of the Task_TARepository repository.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case3.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Case3.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case3.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Task_TA.Case3.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case3.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Task_TA.Case3.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Case4">
+             <summary>
+            The Case4 recording.
+             </summary>
+        </member>
+        <member name="F:Task_TA.Case4.repo">
+            <summary>
+            Holds an instance of the Task_TARepository repository.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case4.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Case4.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case4.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Task_TA.Case4.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case4.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Task_TA.Case4.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Case4_v2">
+             <summary>
+            The Case4_v2 recording.
+             </summary>
+        </member>
+        <member name="F:Task_TA.Case4_v2.repo">
+            <summary>
+            Holds an instance of the Task_TARepository repository.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case4_v2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Case4_v2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case4_v2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Task_TA.Case4_v2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case4_v2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Task_TA.Case4_v2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Case4_v3">
+             <summary>
+            The Case4_v3 recording.
+             </summary>
+        </member>
+        <member name="F:Task_TA.Case4_v3.repo">
+            <summary>
+            Holds an instance of the Task_TARepository repository.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case4_v3.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Case4_v3.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case4_v3.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Task_TA.Case4_v3.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case4_v3.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Task_TA.Case4_v3.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Case5">
+             <summary>
+            The Case5 recording.
+             </summary>
+        </member>
+        <member name="F:Task_TA.Case5.repo">
+            <summary>
+            Holds an instance of the Task_TARepository repository.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case5.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Case5.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case5.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Task_TA.Case5.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case5.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Task_TA.Case5.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Case6">
+             <summary>
+            The Case6 recording.
+             </summary>
+        </member>
+        <member name="F:Task_TA.Case6.repo">
+            <summary>
+            Holds an instance of the Task_TARepository repository.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case6.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Case6.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case6.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Task_TA.Case6.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case6.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Task_TA.Case6.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Case7">
+             <summary>
+            The Case7 recording.
+             </summary>
+        </member>
+        <member name="F:Task_TA.Case7.repo">
+            <summary>
+            Holds an instance of the Task_TARepository repository.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case7.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Case7.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case7.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Task_TA.Case7.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Case7.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Task_TA.Case7.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Task_TA.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Task_TA.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the Task_TARepository repository.
+            </summary>
+        </member>
+        <member name="M:Task_TA.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Task_TA.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Task_TA.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Task_TA.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Task_TA.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Task_TA.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Task_TA.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Task_TA.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the Task_TARepository repository.
+            </summary>
+        </member>
+        <member name="M:Task_TA.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Task_TA.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Task_TA.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Task_TA.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Task_TA.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Task_TA.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Task_TA.Recording1.repo">
+            <summary>
+            Holds an instance of the Task_TARepository repository.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Task_TA.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Task_TA.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Task_TARepository">
+            <summary>
+            The class representing the Task_TARepository element repository.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Task_TARepository element repository.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Task_TARepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl">
+            <summary>
+            The EnTrendUEruenlerTuerkiyeninOnlineAl folder.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Task_TARepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Task_TARepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Task_TARepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Task_TARepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder">
+            <summary>
+            The EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Task_TARepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EnTrendUEruenlerTuerkiyeninOnlineAl  folder.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Kapat">
+            <summary>
+            The Kapat item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.KapatInfo">
+            <summary>
+            The Kapat item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Grouping">
+            <summary>
+            The Grouping folder.
+            </summary>
+        </member>
+        <member name="T:Task_TA.Task_TARepositoryFolders.GroupingFolder">
+            <summary>
+            The GroupingFolder folder.
+            </summary>
+        </member>
+        <member name="M:Task_TA.Task_TARepositoryFolders.GroupingFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Grouping  folder.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.EPosta">
+            <summary>
+            The EPosta item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.EPostaInfo">
+            <summary>
+            The EPosta item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Şifre">
+            <summary>
+            The Şifre item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.ŞifreInfo">
+            <summary>
+            The Şifre item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None">
+            <summary>
+            The None item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.NoneInfo">
+            <summary>
+            The None item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.UEyeOl">
+            <summary>
+            The UEyeOl item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.UEyeOlInfo">
+            <summary>
+            The UEyeOl item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None1">
+            <summary>
+            The None1 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None1Info">
+            <summary>
+            The None1 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.ComboBox">
+            <summary>
+            The ComboBox item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.ComboBoxInfo">
+            <summary>
+            The ComboBox item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.GirişYap">
+            <summary>
+            The GirişYap item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.GirişYapInfo">
+            <summary>
+            The GirişYap item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.UEYEOL1">
+            <summary>
+            The UEYEOL1 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.UEYEOL1Info">
+            <summary>
+            The UEYEOL1 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.ComboBox1">
+            <summary>
+            The ComboBox1 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.ComboBox1Info">
+            <summary>
+            The ComboBox1 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None2">
+            <summary>
+            The None2 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None2Info">
+            <summary>
+            The None2 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None3">
+            <summary>
+            The None3 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None3Info">
+            <summary>
+            The None3 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None4">
+            <summary>
+            The None4 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None4Info">
+            <summary>
+            The None4 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.UEYEOL2">
+            <summary>
+            The UEYEOL2 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.UEYEOL2Info">
+            <summary>
+            The UEYEOL2 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.TextE180504008AtatudTauEduTr">
+            <summary>
+            The TextE180504008AtatudTauEduTr item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.TextE180504008AtatudTauEduTrInfo">
+            <summary>
+            The TextE180504008AtatudTauEduTr item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None5">
+            <summary>
+            The None5 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None5Info">
+            <summary>
+            The None5 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.LuetfenGecerliBirEmailAdresiGiriniz">
+            <summary>
+            The LuetfenGecerliBirEmailAdresiGiriniz item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.LuetfenGecerliBirEmailAdresiGirinizInfo">
+            <summary>
+            The LuetfenGecerliBirEmailAdresiGiriniz item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.TextE180504008AtstudTauEduTr">
+            <summary>
+            The TextE180504008AtstudTauEduTr item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.TextE180504008AtstudTauEduTrInfo">
+            <summary>
+            The TextE180504008AtstudTauEduTr item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.GİRİŞYAP">
+            <summary>
+            The GİRİŞYAP item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.GİRİŞYAPInfo">
+            <summary>
+            The GİRİŞYAP item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.AradığınızUeruenKategoriVeyaMarkayı">
+            <summary>
+            The AradığınızUeruenKategoriVeyaMarkayı item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.AradığınızUeruenKategoriVeyaMarkayıInfo">
+            <summary>
+            The AradığınızUeruenKategoriVeyaMarkayı item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None6">
+            <summary>
+            The None6 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None6Info">
+            <summary>
+            The None6 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None7">
+            <summary>
+            The None7 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None7Info">
+            <summary>
+            The None7 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.SepeteEkle">
+            <summary>
+            The SepeteEkle item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.SepeteEkleInfo">
+            <summary>
+            The SepeteEkle item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.LinkSepetim2">
+            <summary>
+            The LinkSepetim2 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.LinkSepetim2Info">
+            <summary>
+            The LinkSepetim2 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Sepetim2UEruen">
+            <summary>
+            The Sepetim2UEruen item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Sepetim2UEruenInfo">
+            <summary>
+            The Sepetim2UEruen item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None8">
+            <summary>
+            The None8 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None8Info">
+            <summary>
+            The None8 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None9">
+            <summary>
+            The None9 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None9Info">
+            <summary>
+            The None9 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.AradığınızUeruenKategoriVeyaMarkayı1">
+            <summary>
+            The AradığınızUeruenKategoriVeyaMarkayı1 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.AradığınızUeruenKategoriVeyaMarkayı1Info">
+            <summary>
+            The AradığınızUeruenKategoriVeyaMarkayı1 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.SepeteEkle1">
+            <summary>
+            The SepeteEkle1 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.SepeteEkle1Info">
+            <summary>
+            The SepeteEkle1 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Sepetim">
+            <summary>
+            The Sepetim item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.SepetimInfo">
+            <summary>
+            The Sepetim item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Sepetim2UEruen1">
+            <summary>
+            The Sepetim2UEruen1 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Sepetim2UEruen1Info">
+            <summary>
+            The Sepetim2UEruen1 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Text2">
+            <summary>
+            The Text2 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Text2Info">
+            <summary>
+            The Text2 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.SomeText">
+            <summary>
+            The SomeText item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.SomeTextInfo">
+            <summary>
+            The SomeText item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.KulaklıkKategori">
+            <summary>
+            The KulaklıkKategori item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.KulaklıkKategoriInfo">
+            <summary>
+            The KulaklıkKategori item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.SepeteEkleSepeteEklendi">
+            <summary>
+            The SepeteEkleSepeteEklendi item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.SepeteEkleSepeteEklendiInfo">
+            <summary>
+            The SepeteEkleSepeteEklendi item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Sepetim1">
+            <summary>
+            The Sepetim1 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.Sepetim1Info">
+            <summary>
+            The Sepetim1 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.PushButton">
+            <summary>
+            The PushButton item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.PushButtonInfo">
+            <summary>
+            The PushButton item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.AradığınızUeruenKategoriVeyaMarkayı2">
+            <summary>
+            The AradığınızUeruenKategoriVeyaMarkayı2 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.AradığınızUeruenKategoriVeyaMarkayı2Info">
+            <summary>
+            The AradığınızUeruenKategoriVeyaMarkayı2 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None10">
+            <summary>
+            The None10 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None10Info">
+            <summary>
+            The None10 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None11">
+            <summary>
+            The None11 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None11Info">
+            <summary>
+            The None11 item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.LinkFavorilerim">
+            <summary>
+            The LinkFavorilerim item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.LinkFavorilerimInfo">
+            <summary>
+            The LinkFavorilerim item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.FavorilerListenizHenuezBoş">
+            <summary>
+            The FavorilerListenizHenuezBoş item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.FavorilerListenizHenuezBoşInfo">
+            <summary>
+            The FavorilerListenizHenuezBoş item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.CıkışYap">
+            <summary>
+            The CıkışYap item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.CıkışYapInfo">
+            <summary>
+            The CıkışYap item info.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None12">
+            <summary>
+            The None12 item.
+            </summary>
+        </member>
+        <member name="P:Task_TA.Task_TARepositoryFolders.GroupingFolder.None12Info">
+            <summary>
+            The None12 item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.2m"
+		durationms="71170"
+		type="root"
+		rid="94b0f608119c581"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Casper"
+		rxversion="10.2.2.0"
+		host="KARDELEN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="4096x1087"
+		timestamp="19.06.2022 17:32:16"
+		timestampiso="2022-06-19T14:32:16"
+		endtime="19.06.2022 17:33:28"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Case3">
+		<detail>
+			Case3
+		</detail>
+		<errormessage>
+			Failed to find item 'Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.166"
+			timeRelativeToTestModuleStartTime="00:07.166"
+			timeWallClock="17:32:24"
+			time="00:07.166"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None3' at 938;34.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element[@accessiblerole='None']/element[@accessiblerole='None']"
+				itempath="container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element[@accessiblerole='None']/element[@accessiblerole='None']"
+				fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None3"
+				id="534547dc24264aaea932560ebda0b847"
+				timeout="90000"
+				codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.364"
+			timeRelativeToTestModuleStartTime="00:08.364"
+			timeWallClock="17:32:25"
+			time="00:08.364"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.UEyeOl' at 103;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/?/?/button[@accessiblename='Üye Ol']"
+				itempath="container[1]/?/?/container/element[1]/?/?/button[@accessiblename='Üye Ol']"
+				fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.UEyeOl"
+				id="16635d522ab841b88263c2ccf419cc71"
+				timeout="90000"
+				codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.314"
+			timeRelativeToTestModuleStartTime="00:09.314"
+			timeWallClock="17:32:26"
+			time="00:09.314"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox' at 201;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+				itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+				fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox"
+				id="7a1d51768a9741e08157a235275bd7f2"
+				timeout="90000"
+				codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.813"
+			timeRelativeToTestModuleStartTime="00:09.813"
+			timeWallClock="17:32:26"
+			time="00:09.813"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence ' e{NumPad1}{NumPad8}{NumPad0}{NumPad5}{NumPad0}{NumPad4}{NumPad0}{NumPad0}{NumPad8}{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}stud.tau.edu.tr' with focus on 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+				itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+				fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox"
+				id="7a1d51768a9741e08157a235275bd7f2"
+				timeout="90000"
+				codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.483"
+			timeRelativeToTestModuleStartTime="00:10.483"
+			timeWallClock="17:32:27"
+			time="00:10.483"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text' at 162;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+				itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+				fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text"
+				id="7fb7e09806224a4bb0f36a9447920062"
+				timeout="90000"
+				codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.930"
+			timeRelativeToTestModuleStartTime="00:10.930"
+			timeWallClock="17:32:27"
+			time="00:10.930"
+			level="Info"
+			category="Keyboard"
+			errimg="images_Case3_20_e24b16ec\Case3_20_e24b16ec_3dde4e87_trace.jpg"
+			errthumb="images_Case3_20_e24b16ec\Case3_20_e24b16ec_3dde4e87_trace_thumb.jpg">
+			<message>
+				Key sequence 'denme{NumPad1}{NumPad2}.' with focus on 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+				itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+				fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox"
+				id="7a1d51768a9741e08157a235275bd7f2"
+				timeout="90000"
+				codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:10.996"
+			timeRelativeToTestModuleStartTime="01:10.996"
+			timeWallClock="17:33:27"
+			time="01:10.996"
+			level="Info"
+			category="User"
+			errimg="images_Case3_20_e24b16ec\Case3_20_e24b16ec_22c78092_trace.jpg"
+			errthumb="images_Case3_20_e24b16ec\Case3_20_e24b16ec_22c78092_trace_thumb.jpg">
+			<message>
+				Item 'ComboBox' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+				codeline="103"
+				loglvl="Info"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:11.062"
+			timeRelativeToTestModuleStartTime="01:11.062"
+			timeWallClock="17:33:27"
+			time="01:11.062"
+			level="Error"
+			category="Module"
+			errimg="images_Case3_20_e24b16ec\Case3_20_e24b16ec_74ba8f8d_trace.jpg"
+			errthumb="images_Case3_20_e24b16ec\Case3_20_e24b16ec_74ba8f8d_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path 'container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']' at step 'container[@accessiblename='']' after 699 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: Task_TA.Task_TARepositoryFolders.GroupingFolder.get_ComboBox() C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Task_TARepository.cs içinde: satır 379&#13;&#10;   konum: Task_TA.Case3.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs içinde: satır 103&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+				codeline="103"
+				type="repoitem"
+				path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+				itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+				fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox"
+				id="7a1d51768a9741e08157a235275bd7f2"
+				timeout="90000"
+				failedStep="container[@accessiblename='']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

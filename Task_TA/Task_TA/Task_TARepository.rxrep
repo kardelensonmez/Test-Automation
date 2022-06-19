@@ -1,0 +1,597 @@
+﻿<repository
+id="3bd55c85-0911-4f3e-bd96-063144dcfbd8"
+name="Task_TARepository">
+	<codegen
+	classname="Task_TARepository"
+	namespace="Task_TA">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="94b6bcb2-24d6-4517-9c31-f2927da1e5ec"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="848aea98-ff99-4f59-b818-25cacef0d364"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.trendyol.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e0afeaca-d626-46a1-81b5-6b24e4a90768"
+		isrooted="True"
+		name="EnTrendUEruenlerTuerkiyeninOnlineAl"
+		refimgid="e62802a8-5e9e-4157-8bd2-5c1fa875fac3"
+		refpath="/form[@title='En Trend Ürünler Türkiye''nin Online Alışveriş Sitesi Trendyol''da — Mozilla Firefox']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="container,accessible"
+			capname="container"
+			id="fff7e9de-1425-4e9b-8009-1f4ab08189b1"
+			isrooted="True"
+			name="Grouping"
+			refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="fb6d563c-056a-46f8-b546-3007e01fc71a"
+				name="EPosta"
+				refimgid="2cb55494-9a19-4eb9-a933-c478b7c94ef7"
+				refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[1]/element[@accessiblerole='None']/container[@accessiblename='']/element[1]/element[3]/element[3]/element[1]/text[@accessiblename='E-Posta']/text[@accessiblename='E-Posta']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//text[@accessiblename='E-Posta' and @accessiblerole='Text']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename='']/element[1]/element[3]/element[3]/element[1]/text[@accessiblename='E-Posta']/text[@accessiblename='E-Posta']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="cb34a144-8ae5-47c5-ba3e-d06bd9e5421d"
+				name="Şifre"
+				refimgid="0d745293-1854-4528-b68e-ca58819f3864"
+				refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[1]/element[@accessiblerole='None']/container[@accessiblename='']/element[1]/element[3]/element[3]/element[2]/text[@accessiblename='Şifre']/text[@accessiblename='Şifre']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//text[@accessiblename='Şifre' and @accessiblerole='Text']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename='']/element[1]/element[3]/element[3]/element[2]/text[@accessiblename='&#350;ifre']/text[@accessiblename='&#350;ifre']
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="162014f1-c456-4759-9200-d3df20733114"
+				name="None"
+				refimgid="c0d431a2-74e7-4112-bb50-bd515fd9398b"
+				refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/container/container[1]/element/container/element[1]/element[3]/container[1]/element[2]/link[@accessiblename='Kaçırma!']/element[@accessiblerole='None']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//link[@accessiblename='Kaçırma!']/element[@accessiblerole='None']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[1]/element[3]/container[1]/?/?/link[@accessiblename='Ka&#231;&#305;rma!']/element[@accessiblerole='None']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="16635d52-2ab8-41b8-8263-c2ccf419cc71"
+				name="UEyeOl"
+				refimgid="8a027268-dde2-4056-940a-7ed234180f3a"
+				refpath="/form[@title='Mozilla Firefox']/container/container[1]/element/container/element[1]/element[3]/button[@accessiblename='Üye Ol']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//button[@accessiblename='Üye Ol']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/?/?/button[@accessiblename='&#220;ye Ol']
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="fa3be3e8-7c21-4a56-9cfa-6eec45b9add5"
+				name="None1"
+				refimgid="6113399d-7391-43f2-ac62-a9a27c782d67"
+				refpath="/form[@title='Mozilla Firefox']/container/container[1]/element/container/element[1]/element[3]/element[3]/element[10]"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//container[@accessiblename='']/element[1]/element[3]/element[3]/element[10]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[10]
+				</item>
+				<item
+				addcaps="combobox,accessible"
+				capname="combobox"
+				id="7a1d5176-8a97-41e0-8157-a235275bd7f2"
+				name="ComboBox"
+				refimgid="ba143645-9e13-4dfd-a44d-57e62519ba24"
+				refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[1]/element[@accessiblerole='None']/container[@accessiblename='']/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//container[@accessiblename='']/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="7fb7e098-0622-4a4b-b0f3-6a9447920062"
+				name="Text"
+				refimgid="c28a742f-9d9e-4379-afbb-0496659ebf05"
+				refpath="/form[@title='Mozilla Firefox']/container/container[1]/element/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//container[@accessiblename='']/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="91090ad5-2bc5-4dc4-a5b9-f30b03fe470e"
+				name="GirişYap"
+				refimgid="03890424-4c53-485d-bb4c-c8a64658aa15"
+				refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/container/container[1]/element/container/element[1]/element[1]/element/element/element[2]/element/element[1]/element[3]/text[@accessiblename='Giriş Yap']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']/element[1]/element[3]/text[@accessiblename='Giriş Yap']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/element/element[1]/?/?/text[@accessiblename='Giri&#351; Yap']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="25c5d3ef-6c04-45a1-bef2-d553c1523130"
+				name="UEYEOL1"
+				refimgid="55103095-b6f6-4bbb-be21-9df8c64813f0"
+				refpath="/form[@title='Mozilla Firefox']/container/container[1]/element/container/element[1]/element[3]/element[3]/button[@accessiblename='ÜYE OL']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/button[@accessiblename='ÜYE OL']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/button[@accessiblename='&#220;YE OL']
+				</item>
+				<item
+				addcaps="combobox,accessible"
+				capname="combobox"
+				id="6bfb9698-eeab-43c9-b88b-6318c424e96f"
+				name="ComboBox1"
+				refimgid="a81f3c21-6389-486d-a2d9-ac04dd481601"
+				refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[1]/element[@accessiblerole='None']/container[@accessiblename='']/element[1]/element[3]/element[4]/element[1]/combobox[@accessiblerole='ComboBox']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename='']/element[1]/element[3]/element[4]/element[1]/combobox[@accessiblerole='ComboBox']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[4]/element[1]/combobox[@accessiblerole='ComboBox']
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="260b5e68-f14c-4bb6-ab0b-f76fd035e4f0"
+				name="None2"
+				refimgid="4ed32f50-1aca-473e-8fe0-f26beeb7494c"
+				refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[1]/element[@accessiblerole='None']/container[@accessiblename='']/element[1]/element[3]/element[3]"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename='']/element[1]/element[3]/element[3]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="534547dc-2426-4aae-a932-560ebda0b847"
+				name="None3"
+				refimgid="9129befb-b77c-4b0f-aacc-367db30b3c3f"
+				refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/container/container[1]/element/container/element[1]/element[1]/element/element[@accessiblerole='None']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element[@accessiblerole='None']/element[@accessiblerole='None']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[1]/element[1]/element[@accessiblerole='None']/element[@accessiblerole='None']
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="66570af6-2cd4-43f8-bc25-4c9424e052dc"
+				name="None4"
+				refimgid="cf1669d4-8f17-4dba-80e0-72c81c53d998"
+				refpath="/form[@title='Mozilla Firefox']/container/container[1]/element/container/element[1]/element[3]/element[4]/element[10]"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename='']/element[1]/element[3]/element[4]/element[10]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[4]/element[10]
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="44cec552-b412-4b8e-a8be-5559ecfedd0b"
+				name="UEYEOL2"
+				refimgid="14fcd5e4-7b90-4cec-bf37-ee4ae9f612cb"
+				refpath="/form[@title='Mozilla Firefox']/container/container[1]/element/container/element[1]/element[3]/element[4]/button[@accessiblename='ÜYE OL']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/button[@accessiblename='ÜYE OL']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[4]/button[@accessiblename='&#220;YE OL']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="8e2a2e88-f857-4fd5-8e7a-ccd5487587c4"
+				name="TextE180504008AtatudTauEduTr"
+				refimgid="763c2525-aa0d-4342-9d4b-9626545d4dc7"
+				refpath="/form[@title='Mozilla Firefox']/container/container[1]/element/container/element[1]/element[3]/element[3]/element[1]/combobox/text[@accessiblename>' e180504008@atud.tau.edu.']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename>' e180504008@atud.tau.edu.']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename='']/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']/text[@accessiblename&gt;' e180504008@atud.tau.edu.']
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="9f0b9477-5519-467f-9db3-b1127cbb11de"
+				name="None5"
+				refimgid="b027cb30-b638-444d-8bd1-911a1048a7a0"
+				refpath="/form[@title='Mozilla Firefox']/container/container[1]/element/container/element[1]/element[3]/element[3]/element[4]"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename='']/element[1]/element[3]/element[3]/element[4]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[4]
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="0a134ab0-6a03-4cc9-ad39-a65813bdcdb0"
+				name="Text1"
+				refimgid="0e9528a8-fc17-4ef5-9298-e3f824f66529"
+				refpath="/form[@title='Mozilla Firefox']/container/container[1]/element/container/element[1]/element[3]/element[4]/element[2]/text[@accessiblerole='Text']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename='']/element[1]/element[3]/element[4]/element[2]/text[@accessiblerole='Text']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[4]/element[2]/text[@accessiblerole='Text']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="5130c23e-674b-4f8c-900c-b6e70ab6f05f"
+				name="LuetfenGecerliBirEmailAdresiGiriniz"
+				refimgid="9dc94f90-f17a-4827-af42-767606c1757f"
+				refpath="/form[@title='Mozilla Firefox']/container/container[1]/element/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblename>'Lütfen geçerli bir email adresi']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename>'Lütfen geçerli bir email adresi']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/?/?/text[@accessiblename&gt;'L&#252;tfen ge&#231;erli bir email adresi']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="2dfcf164-ac26-429f-8b64-a250c08c0b2c"
+				name="TextE180504008AtstudTauEduTr"
+				refimgid="42f735c0-3171-4206-be54-d838fb743368"
+				refpath="/form[@title='Mozilla Firefox']/container/container[1]/element/container/element[1]/element[3]/element[3]/element[1]/combobox/text[@accessiblename>'  e180504008@stud.tau.edu']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename>'  e180504008@stud.tau.edu']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename='']/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']/text[@accessiblename&gt;'  e180504008@stud.tau.edu']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="3c3019ef-f5d4-4394-a610-381907977ca5"
+				name="GİRİŞYAP"
+				refimgid="2fa42448-6653-496d-9bea-67cab6959f0d"
+				refpath="/form[@title='Mozilla Firefox']/container/container[1]/element/container/element[1]/element[3]/element[3]/button[@accessiblename='GİRİŞ YAP']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/button[@accessiblename='GİRİŞ YAP']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/button[@accessiblename='G&#304;R&#304;&#350; YAP']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="15ff16fd-5706-41b2-813d-922b2939b735"
+				name="AradığınızUeruenKategoriVeyaMarkayı"
+				refimgid="241b0fc9-018a-4123-9910-d4eea42238ef"
+				refpath="/form[@title>'Kadın Butikleri, Yeni Sezon']/container/container[1]/element/container/element[1]/element[1]/element/element/element[1]/element/element/text[@accessiblename>'Aradığınız ürün, kategori']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename>'Aradığınız ürün, kategori']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'Kad&#305;n Butikleri, Yeni Sezon']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]//text[@accessiblename&gt;'Arad&#305;&#287;&#305;n&#305;z &#252;r&#252;n, kategori']
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="085fa678-5b08-4e6b-a2ba-c061530a2c11"
+				name="None6"
+				refimgid="55e289a7-030d-4ff6-9620-8f832a2be7e7"
+				refpath="/form[@title>'Kadın Butikleri, Yeni Sezon']/container/container[1]/element/container/element[1]/element[1]/element/element/element[1]/element/element[2]/element[@accessiblerole='None']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename>'Kadın Butikleri, Yeni Sezon']/element[1]/element[1]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'Kad&#305;n Butikleri, Yeni Sezon']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="f46e98cf-2457-4f18-bd4e-d16c560aebd1"
+				name="None7"
+				refimgid="796481d7-261c-4d16-bd60-da2106d072bd"
+				refpath="/form[@title>'kulaklık Modelleri, Fiyatları']/container/container[1]/element/container/element[1]/element[3]/element[6]/button/element[1]"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/button[@accessiblename>'Sepete Ekle Sepete Eklend']/element[1]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename&gt;'kulakl&#305;k Modelleri, Fiyatlar&#305;']/element[1]/element[3]/element[6]/button[@accessiblename&gt;'Sepete Ekle Sepete Eklend']/element[1]
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="adc7d11e-3df4-4e74-b642-10d9cc800c08"
+				name="SepeteEkle"
+				refimgid="ba180507-5673-4ddb-9d1b-4ca1cb853c8e"
+				refpath="/form[@title>'kulaklık Modelleri, Fiyatları']/container/container[1]/element/container/element[1]/element[3]/element[9]/button/element[1]/text[@accessiblename='Sepete Ekle']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename>'kulaklık Modelleri, Fiyatları']/element[1]/element[3]/element[9]/button[@accessiblename>'Sepete Ekle Sepete Eklend']/element[1]/text[@accessiblename='Sepete Ekle']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename&gt;'kulakl&#305;k Modelleri, Fiyatlar&#305;']/element[1]/element[3]/element[9]/button[@accessiblename&gt;'Sepete Ekle Sepete Eklend']/?/?/text[@accessiblename='Sepete Ekle']
+				</item>
+				<item
+				addcaps="link,accessible"
+				capname="link"
+				id="41b96af7-caa0-469f-a40f-ad6d028f7187"
+				name="LinkSepetim2"
+				refimgid="0abfe2ae-f678-4518-81a0-2b62cc15a536"
+				refpath="/form[@title>'kulaklık Modelleri, Fiyatları']/container/container[1]/element/container/element[1]/element[1]/element/element/element[2]/element/link[@accessiblename='  Sepetim 2']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/link[@accessiblename='  Sepetim 2']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'kulakl&#305;k Modelleri, Fiyatlar&#305;']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/?/?/link[@accessiblename='&#59648; &#59736; Sepetim 2']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="69a9fbb8-9f52-498e-bc0f-81b21ef3986a"
+				name="Sepetim2UEruen"
+				refimgid="4289c686-33b6-4179-a863-363a9ec0bc11"
+				refpath="/form[@title='Sepetim - Trendyol — Mozilla Firefox']/container[@accessiblerole='Grouping']/container[1]/element[@accessiblerole='None']/container[@accessiblename='Sepetim - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/element[1]/text[@accessiblename='Sepetim (2 Ürün)']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename='Sepetim (2 Ürün)']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='Sepetim - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/element[1]/text[@accessiblename='Sepetim (2 &#220;r&#252;n)']
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="f0f73b0b-fd70-4908-bb4d-cf18f2593120"
+				name="None8"
+				refimgid="58e05724-5609-4806-8ba1-521f439ff430"
+				refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/container/container[1]/element/container/element[1]/element[1]/element/element/element[2]/element/element[1]"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']/element[1]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/element/element[1]
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="9ddba48a-30d6-4271-887f-4f5d384c4961"
+				name="None9"
+				refimgid="9afd267a-78af-4729-9e34-dbf770bc737e"
+				refpath="/form[@title='Mozilla Firefox']/container/container[1]/element/container/element[1]/element[1]/element/element/element[2]/element/element[@accessiblerole='None']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename='']/element[1]/element[1]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="c35c421e-8385-42ab-b545-f079f74127fa"
+				name="AradığınızUeruenKategoriVeyaMarkayı1"
+				refimgid="cdb3e5a0-4fbd-4f08-9144-46a3552d6276"
+				refpath="/form[@title>'Kadın Butikleri, Yeni Sezon']/container/container[1]/element/container/element[1]/element[1]/element/element/element[1]/element/element[2]/text[@accessiblename>'Aradığınız ürün, kategori']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename>'Aradığınız ürün, kategori']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'Kad&#305;n Butikleri, Yeni Sezon']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]/element[@accessiblerole='None']/element[2]/text[@accessiblename&gt;'Arad&#305;&#287;&#305;n&#305;z &#252;r&#252;n, kategori']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="d6fd05c3-cbad-4ec2-80e1-06b99d11ec2b"
+				name="SepeteEkle1"
+				refimgid="64e8c38c-22d2-4b42-901a-8a40cc1b31bd"
+				refpath="/form[@title>'kulaklık Modelleri, Fiyatları']/container/container[1]/element/container/element[1]/element[3]/element[6]/button/element[1]/text[@accessiblename='Sepete Ekle']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename='Sepete Ekle']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename&gt;'kulakl&#305;k Modelleri, Fiyatlar&#305;']/element[1]/element[3]/element[6]/button[@accessiblename&gt;'Sepete Ekle Sepete Eklend']/?/?/text[@accessiblename='Sepete Ekle']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="aef5e144-7d79-4d00-a83b-3e77becc4e38"
+				name="Sepetim"
+				refimgid="c1ee08e8-69fc-4bd7-990c-6f64d424a430"
+				refpath="/form[@title>'kulaklık Modelleri, Fiyatları']/container/container[1]/element/container/element[1]/element[1]/element/element/element[2]/element/link[@accessiblename='  Sepetim 2']/element[3]/text[@accessiblename='Sepetim']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename='Sepetim']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'kulakl&#305;k Modelleri, Fiyatlar&#305;']/element[1]/element[1]//link[@accessiblename='&#59648; &#59736; Sepetim 2']/element[3]/text[@accessiblename='Sepetim']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="e87ae0b9-8b75-4e15-a3fc-d7bdd7fd533c"
+				name="Sepetim2UEruen1"
+				refimgid="ae38d559-a3be-469c-8463-ce084113b88b"
+				refpath="/form[@title='Sepetim - Trendyol — Mozilla Firefox']/container[@accessiblerole='Grouping']/container[1]/element[@accessiblerole='None']/container[@accessiblename='Sepetim - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/text[@accessiblename='Sepetim (2 Ürün)']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename='Sepetim (2 Ürün)']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='Sepetim - Trendyol']//text[@accessiblename='Sepetim (2 &#220;r&#252;n)']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="f0823bd9-0fb1-4dba-bb37-8f3c0a3138ed"
+				name="Text2"
+				refimgid="a3445dd0-feba-4500-81c0-4021e3b4818c"
+				refpath="/form[@title='Sepetim - Trendyol — Mozilla Firefox']/container[@accessiblerole='Grouping']/container[1]/element[@accessiblerole='None']/container[@accessiblename='Sepetim - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/text[2]"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename='Sepetim - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/text[2]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='Sepetim - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/text[2]
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="503efaad-2650-48a2-9366-8cf8e42f9eb8"
+				name="SomeText"
+				refimgid="400f990b-e048-4064-a283-786ae08ae077"
+				refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/container/container[1]/element/container/element[1]/element[1]/element/element/element[2]/element/element[1]/element[1]/text[@accessiblename='']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename='']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/element/element[1]/?/?/text[@accessiblename='&#59664;']
+				</item>
+				<item
+				addcaps="link,accessible"
+				capname="link"
+				id="409795b1-1f50-4c06-aafd-1473ac8b07cf"
+				name="KulaklıkKategori"
+				refimgid="20303b49-a170-4a1d-93fd-e2bd9eb99cb8"
+				refpath="/form[@title>'Kadın Butikleri, Yeni Sezon']/container/container[1]/element/container/element[1]/element[1]/element/element/element[1]/element/link[@accessiblename='Kulaklık Kategori']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/link[@accessiblename='Kulaklık Kategori']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'Kad&#305;n Butikleri, Yeni Sezon']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]/?/?/link[@accessiblename='Kulakl&#305;k Kategori']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="56b4bfea-31b6-497d-a682-e602d446334e"
+				name="SepeteEkleSepeteEklendi"
+				refimgid="6cae9029-2b5d-475c-94e5-ebddc52db01b"
+				refpath="/form[@title>'Tüm Ürünler - Trendyol — Mozilla']/container/container[1]/element/container/element[1]/element[3]/element[6]/button[@accessiblename>'Sepete Ekle Sepete Eklend']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/button[@accessiblename>'Sepete Ekle Sepete Eklend']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename='T&#252;m &#220;r&#252;nler - Trendyol']/element[1]/element[3]/element[6]/button[@accessiblename&gt;'Sepete Ekle Sepete Eklend']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="7c2e60b9-9ca6-4566-bba8-d75cef111745"
+				name="Sepetim1"
+				refimgid="f62e4900-2bac-4270-b5ef-c20152eaeec0"
+				refpath="/form[@title>'Tüm Ürünler - Trendyol — Mozilla']/container/container[1]/element/container/element[1]/element[1]/element/element/element[2]/element/link[@accessiblename='  Sepetim 1']/element[3]/text[@accessiblename='Sepetim']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename='Sepetim']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='T&#252;m &#220;r&#252;nler - Trendyol']/element[1]/element[1]//link[@accessiblename='&#59648; &#59736; Sepetim 1']/element[3]/text[@accessiblename='Sepetim']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="0806ad21-c08a-4b24-8bfe-85f3cdb11a07"
+				name="PushButton"
+				refimgid="cae2a542-14ef-405e-b886-771efd96e407"
+				refpath="/form[@title>'Sepetim - Trendyol — Mozilla']/container/container[1]/element/container/element[1]/element[3]/element/button[2]"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename='Sepetim - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/button[2]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='Sepetim - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/button[2]
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="d18b5489-704e-41f9-8859-cc7c33c5943d"
+				name="AradığınızUeruenKategoriVeyaMarkayı2"
+				refimgid="b4e589ba-7b22-4668-a597-8cc42be39d59"
+				refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/container/container[1]/element/container/element[1]/element[1]/element/element/element[1]/element/element/text[@accessiblename>'Aradığınız ürün, kategori']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename>'Aradığınız ürün, kategori']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]//text[@accessiblename&gt;'Arad&#305;&#287;&#305;n&#305;z &#252;r&#252;n, kategori']
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="f6714897-c875-45a7-92d3-1cd8e662fd82"
+				name="None10"
+				refimgid="cd59124f-1ce8-44ad-b4fc-23b19dafd514"
+				refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/container/container[1]/element/container/element[1]/element[1]/element/element/element[1]/element/element[2]/element[@accessiblerole='None']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="8e95b9a9-3bb1-40d3-8462-350d3e1c6396"
+				name="None11"
+				refimgid="8a6379fd-01d1-44a3-b7e9-f76b6684a772"
+				refpath="/form[@title>'kulaklık Modelleri, Fiyatları']/container/container[1]/element/container/element[1]/element[3]/element[7]"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename>'kulaklık Modelleri, Fiyatları']/element[1]/element[3]/element[7]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'kulakl&#305;k Modelleri, Fiyatlar&#305;']/element[1]/element[3]/element[7]
+				</item>
+				<item
+				addcaps="link,accessible"
+				capname="link"
+				id="1b755fdd-003d-411e-9a7e-e6c3417bfc07"
+				name="LinkFavorilerim"
+				refimgid="fa1a819b-ae3f-47e4-ba1b-8bb54489adb8"
+				refpath="/form[@title>'kulaklık Modelleri, Fiyatları']/container/container[1]/element/container/element[1]/element[1]/element/element/element[2]/element/link[@accessiblename='  Favorilerim']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/link[@accessiblename='  Favorilerim']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'kulakl&#305;k Modelleri, Fiyatlar&#305;']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/?/?/link[@accessiblename='&#59649; &#59750; Favorilerim']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="5aee6328-21ed-45ac-b389-8df2224410ce"
+				name="FavorilerListenizHenuezBoş"
+				refimgid="f7131227-0a19-4ba0-b686-4b51710e064d"
+				refpath="/form[@title='Favoriler - Trendyol — Mozilla Firefox']/container[@accessiblerole='Grouping']/container[1]/element[@accessiblerole='None']/container[@accessiblename='Favoriler - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/element[7]/text[@accessiblename='Favoriler Listeniz Henüz Boş']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename>'Favoriler Listeniz Henüz']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='Favoriler - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/element[7]/text[@accessiblename&gt;'Favoriler Listeniz Hen&#252;z']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="ddfeb62f-090d-480a-8f3b-60f83bbf2411"
+				name="CıkışYap"
+				refimgid="34b574e3-e268-46ab-be7a-edf4881721de"
+				refpath="/form[@title>'Siparişlerim - Trendyol —']/container/container[1]/element/container/element[1]/element[1]/element/element/element[2]/element/link[@accessiblename=' Çıkış Yap']/text[@accessiblename='Çıkış Yap']"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/text[@accessiblename='Çıkış Yap']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='Sipari&#351;lerim - Trendyol']/element[1]/element[1]//link[@accessiblename='&#59742; &#199;&#305;k&#305;&#351; Yap']/text[@accessiblename='&#199;&#305;k&#305;&#351; Yap']
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="39e030f0-cc0b-4114-b11a-1cf9c92eafec"
+				name="None12"
+				refimgid="17da9221-96f9-4b46-bd2f-84decb89096c"
+				refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/container/container[1]/element/container/element[1]/element[1]/element/element/element[2]/element/element[1]/element[3]"
+				robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']/element[1]/element[3]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']/element[1]/element[3]
+				</item>
+				<basepath>
+					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblerole='Grouping']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="158c1ef4-ac65-46cf-8b69-0c2a4971fdb4"
+			name="Kapat"
+			refimgid="40ac0045-31d3-4149-824d-1906c9fa30b2"
+			refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/toolbar[@accessiblename='Taray&#305;c&#305; sekmeleri']/button[@accessiblename='Kapat']
+			</item>
+			<basepath>
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALqSURBVDhPlZNrSJNhFMffz5VldI+iyIgyiZXp
+8tpsTjedypahDjR1dE8yu33o+qGLRrKKoojKIosoYkIlScYs9iGCWhBh0WW6LNOwmYGVtffX2Rxd
+v9QfDud9zsv/xznnfV7lX6T2mh3qB7M3fPw/qd3GSvxm6DWjvjM5wuW/xaWJGpxTpoaPP6S2p/np
+NkJPFnRJ7jCUhl/9FLsnatTjo/3UjytVTyc6uJq0K1T3xOp4tAC8OnhjGAyfHtVnctCRpwmZg1K3
+TvayfyzqkQl+Tsym/2imoyHuhcNd1OJ9uLGetjPb4FkqvBSQdxG8yBBIthdvXqTCiuhSqqbDrklQ
+OwZOjWKgfiZu23VupHZxM/ktt3If4Du7Hh4lQmsaPM0QoIzTLuOoxRonK6PFLIDzk+HKVAnJ16N4
+d66YpvxWrmW34XeVwJMUuLcQ7gvgiRH1ebpT+ZaT5KFYA9uj4LJAGiW3zKbdaad571VOWj5zxujn
+kvkuPIwHdxI0Z8pzBoHHJpfyJUG2a9USgqyIpv/iLPbk32JzYSfbS/qoLujnYFYPh7StcCcGmuLg
+gngeJBNwm13KQJzJRaa0ZhGIbR6+mkTKUpsps3pYbntG1ZI2dqY/p1Z7WzqcBXWJqOcXoTanEGjI
+dSk945fVkZwOBpktR5ZUEcOx8i0UpjViy2rBbnBTGX+H+/ZyqI5FPZAMF+MInNMTOGWpUzqHbtD1
+RRVBgnzjNNmwUbqxz+V2QQm1hn049DU8tVilFgubJPbOh8NaBnZY+LqvQBe6B6+HV7g+xSxGjTdB
+knQTBAXHypaF5clFCu5oicxeLEtck8CnshwJmzNkDso7Yl2kL2Kt5/20Ir7Nyx0EBTtK0Q/C9DKe
+IZVAuo6P8Vb6tGUef97SyLB9UCHIsAqXb5SdnmmFfIy2MjA3h6+x2fTPMdM7YzFd48rpHrnW5Z+y
+7nfzr+oYUlUaAkWspn34SolVvIqooGNopbNzyMY/fiRF+Q7XeQwrhL8REgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

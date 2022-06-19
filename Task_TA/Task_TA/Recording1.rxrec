@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d263840e-6721-49ac-8607-982fb677f3c9"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="Task_TA">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="3bd55c85-0911-4f3e-bd96-063144dcfbd8"
+	name="Task_TARepository"
+	relativepath="Task_TARepository.rxrep">
+		<codegen
+		classname="Task_TARepository"
+		namespace="Task_TA">
+		</codegen>
+		<rootfolder
+		id="94b6bcb2-24d6-4517-9c31-f2927da1e5ec"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

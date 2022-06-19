@@ -1,0 +1,2395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.5m"
+		durationms="150660"
+		type="root"
+		rid="264e760beaa1494"
+		totalerrorcount="2"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="3"
+		totalfailedtestcasecount="2"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="3"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Casper"
+		rxversion="10.2.2.0"
+		host="KARDELEN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="4096x1087"
+		timestamp="19.06.2022 18:13:48"
+		timestampiso="2022-06-19T15:13:48"
+		endtime="19.06.2022 18:16:19"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="2.5m"
+			durationms="147347"
+			type="test-suite"
+			rid="775de5122e9c65e"
+			totalerrorcount="2"
+			totalwarningcount="2"
+			totalsuccesstestcasecount="3"
+			totalfailedtestcasecount="2"
+			totalblockedtestcasecount="0"
+			childsuccesscount="3"
+			childfailedcount="2"
+			childblockedcount="0"
+			totalsuccesscount="3"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Task_TA"
+			headertext="Task_TA"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="7.92s"
+				durationms="7921"
+				type="test-case"
+				rid="7441c07a839bc66"
+				totalerrorcount="0"
+				totalwarningcount="1"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="3"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Case1"
+				testcontainerid="81a9e039-ab66-45e4-8016-1a7e77dcf083"
+				headertext="Case1"
+				displayName="Case1"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="512ms"
+					durationms="512"
+					type="setup-container"
+					rid="54e8ae770891c15"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="493ms"
+						durationms="493"
+						type="test-module"
+						rid="793de95d373eee4"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="3a86b92f-2903-48d9-97b7-6730522a0163"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.064"
+							timeRelativeToTestModuleStartTime="00:00.009"
+							timeWallClock="18:13:51"
+							time="00:00.064"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://www.trendyol.com/' with browser 'firefox' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\OpenBrowser.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="7.32s"
+					durationms="7318"
+					type="test-module"
+					rid="db59e4977a882b8"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Case1"
+					displayName="Case1"
+					moduleid="9fe4dcfe-0b07-4f10-a63c-2719b783ee17"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.555"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="18:13:52"
+						time="00:00.555"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None12' at 4;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']/element[1]/element[3]"
+							itempath="container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']/element[1]/element[3]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None12"
+							id="39e030f0cc0b4114b11a1cf9c92eafec"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.014"
+						timeRelativeToTestModuleStartTime="00:02.462"
+						timeWallClock="18:13:54"
+						time="00:03.014"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.UEyeOl' at 117;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/?/?/button[@accessiblename='Üye Ol']"
+							itempath="container[1]/?/?/container/element[1]/?/?/button[@accessiblename='Üye Ol']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.UEyeOl"
+							id="16635d522ab841b88263c2ccf419cc71"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.897"
+						timeRelativeToTestModuleStartTime="00:03.345"
+						timeWallClock="18:13:55"
+						time="00:03.897"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.UEyeOl' at -8;144.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/?/?/button[@accessiblename='Üye Ol']"
+							itempath="container[1]/?/?/container/element[1]/?/?/button[@accessiblename='Üye Ol']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.UEyeOl"
+							id="16635d522ab841b88263c2ccf419cc71"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.095"
+						timeRelativeToTestModuleStartTime="00:03.543"
+						timeWallClock="18:13:55"
+						time="00:04.095"
+						level="Warn"
+						category="Click"
+						errimg="images_Task_TA__3db7ba9c\Task_TA__b30ca3f4_rxlog.jpg"
+						errthumb="images_Task_TA__3db7ba9c\Task_TA__b30ca3f4_rxlog_thumb.jpg">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+						</message>
+						<metainfo
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="91"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.481"
+						timeRelativeToTestModuleStartTime="00:03.929"
+						timeWallClock="18:13:56"
+						time="00:04.481"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'e{NumPad1}{NumPad8}{NumPad0}{NumPad5}{NumPad0}{NumPad4}{NumPad0}{NumPad0}{NumPad8}{LControlKey down}{RMenu down}{Qkey}{LControlKey up}{LControlKey up}{RMenu up}stud.tau.edu.tr' with focus on 'EnTrendUEruenlerTuerkiyeninOnlineAl'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']"
+							itempath="/form[@title>'En Trend Ürünler Türkiye''nin']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Self"
+							id="e0afeacad62646a181b56b24e4a90768"
+							timeout="30000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.276"
+						timeRelativeToTestModuleStartTime="00:04.724"
+						timeWallClock="18:13:57"
+						time="00:05.276"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text' at 139;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text"
+							id="7fb7e09806224a4bb0f36a9447920062"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="99"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.763"
+						timeRelativeToTestModuleStartTime="00:05.211"
+						timeWallClock="18:13:57"
+						time="00:05.763"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'deneme{NumPad1}{NumPad2}.' with focus on 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text"
+							id="7fb7e09806224a4bb0f36a9447920062"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="103"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.075"
+						timeRelativeToTestModuleStartTime="00:05.523"
+						timeWallClock="18:13:57"
+						time="00:06.075"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None1' at 12;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[10]"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[10]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None1"
+							id="fa3be3e87c214a569cfa6eec45b9add5"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="107"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.565"
+						timeRelativeToTestModuleStartTime="00:06.013"
+						timeWallClock="18:13:58"
+						time="00:06.565"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.EPosta'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename='']/element[1]/element[3]/element[3]/element[1]/text[@accessiblename='E-Posta']/text[@accessiblename='E-Posta']"
+							itempath=".//container[@accessiblename='']/element[1]/element[3]/element[3]/element[1]/text[@accessiblename='E-Posta']/text[@accessiblename='E-Posta']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.EPosta"
+							id="fb6d563c056a46f8b5463007e01fc71a"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="111"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.699"
+						timeRelativeToTestModuleStartTime="00:06.147"
+						timeWallClock="18:13:58"
+						time="00:06.699"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'EPosta' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename='']/element[1]/element[3]/element[3]/element[1]/text[@accessiblename='E-Posta']/text[@accessiblename='E-Posta']"
+							itempath=".//container[@accessiblename='']/element[1]/element[3]/element[3]/element[1]/text[@accessiblename='E-Posta']/text[@accessiblename='E-Posta']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.EPosta"
+							id="fb6d563c056a46f8b5463007e01fc71a"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="112"
+							loglvl="Success"
+							itemindex="7">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.857"
+						timeRelativeToTestModuleStartTime="00:06.305"
+						timeWallClock="18:13:58"
+						time="00:06.857"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='e180504008@stud.tau.edu.tr') on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox"
+							id="7a1d51768a9741e08157a235275bd7f2"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="115"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.974"
+						timeRelativeToTestModuleStartTime="00:06.422"
+						timeWallClock="18:13:58"
+						time="00:06.974"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox"
+							id="7a1d51768a9741e08157a235275bd7f2"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="116"
+							loglvl="Success"
+							itemindex="8">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.121"
+						timeRelativeToTestModuleStartTime="00:06.569"
+						timeWallClock="18:13:58"
+						time="00:07.121"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Şifre'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename='']/element[1]/element[3]/element[3]/element[2]/text[@accessiblename='Şifre']/text[@accessiblename='Şifre']"
+							itempath=".//container[@accessiblename='']/element[1]/element[3]/element[3]/element[2]/text[@accessiblename='Şifre']/text[@accessiblename='Şifre']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Şifre"
+							id="cb34a1448ae547c5ba3ed06bd9e5421d"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="119"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.224"
+						timeRelativeToTestModuleStartTime="00:06.672"
+						timeWallClock="18:13:59"
+						time="00:07.224"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'Şifre' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename='']/element[1]/element[3]/element[3]/element[2]/text[@accessiblename='Şifre']/text[@accessiblename='Şifre']"
+							itempath=".//container[@accessiblename='']/element[1]/element[3]/element[3]/element[2]/text[@accessiblename='Şifre']/text[@accessiblename='Şifre']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Şifre"
+							id="cb34a1448ae547c5ba3ed06bd9e5421d"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="120"
+							loglvl="Success"
+							itemindex="9">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.369"
+						timeRelativeToTestModuleStartTime="00:06.817"
+						timeWallClock="18:13:59"
+						time="00:07.369"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text"
+							id="7fb7e09806224a4bb0f36a9447920062"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="123"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.470"
+						timeRelativeToTestModuleStartTime="00:06.918"
+						timeWallClock="18:13:59"
+						time="00:07.470"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'Text' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text"
+							id="7fb7e09806224a4bb0f36a9447920062"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="124"
+							loglvl="Success"
+							itemindex="10">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.617"
+						timeRelativeToTestModuleStartTime="00:07.065"
+						timeWallClock="18:13:59"
+						time="00:07.617"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None1'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[10]"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[10]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None1"
+							id="fa3be3e87c214a569cfa6eec45b9add5"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="127"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.717"
+						timeRelativeToTestModuleStartTime="00:07.165"
+						timeWallClock="18:13:59"
+						time="00:07.717"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'None1' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[10]"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[10]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None1"
+							id="fa3be3e87c214a569cfa6eec45b9add5"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case1.cs"
+							codeline="128"
+							loglvl="Success"
+							itemindex="11">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="83ms"
+					durationms="83"
+					type="teardown-container"
+					rid="7a7073ddf65a2a6"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="81ms"
+						durationms="81"
+						type="test-module"
+						rid="70fabded3aabc2a"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CloseBrowser"
+						displayName="CloseBrowser"
+						moduleid="37fa9c59-8d64-4ee1-84cc-954521677128"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.873"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="18:13:59"
+							time="00:07.873"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Kapat'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title>'En Trend Ürünler Türkiye''nin']/toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+								itempath="toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+								fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Kapat"
+								id="158c1ef4ac6546cf8b690c2a4971fdb4"
+								timeout="60000"
+								codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\CloseBrowser.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="4.35s"
+				durationms="4354"
+				type="test-case"
+				rid="a9151341e6f9036"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="3"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Case2"
+				testcontainerid="0f740626-d94c-4d68-af25-a07fa6b349d1"
+				headertext="Case2"
+				displayName="Case2"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="106ms"
+					durationms="106"
+					type="setup-container"
+					rid="2020037989ea020"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="105ms"
+						durationms="105"
+						type="test-module"
+						rid="17eadb508131a"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="3a86b92f-2903-48d9-97b7-6730522a0163"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.959"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="18:13:59"
+							time="00:07.959"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://www.trendyol.com/' with browser 'firefox' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\OpenBrowser.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="4.15s"
+					durationms="4147"
+					type="test-module"
+					rid="2c124ffcde7e27"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Case2"
+					displayName="Case2"
+					moduleid="cda361eb-67ac-4a7b-a5bc-7f95674bc4b4"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.065"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="18:13:59"
+						time="00:08.065"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.GirişYap' at 21;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/element/element[1]/?/?/text[@accessiblename='Giriş Yap']"
+							itempath="container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/element/element[1]/?/?/text[@accessiblename='Giriş Yap']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.GirişYap"
+							id="91090ad52bc54dc4a5b9f30b03fe470e"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case2.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.784"
+						timeRelativeToTestModuleStartTime="00:00.721"
+						timeWallClock="18:14:00"
+						time="00:08.784"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.UEyeOl' at 125;22.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/?/?/button[@accessiblename='Üye Ol']"
+							itempath="container[1]/?/?/container/element[1]/?/?/button[@accessiblename='Üye Ol']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.UEyeOl"
+							id="16635d522ab841b88263c2ccf419cc71"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case2.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.849"
+						timeRelativeToTestModuleStartTime="00:01.786"
+						timeWallClock="18:14:01"
+						time="00:09.849"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text' at 196;25.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text"
+							id="7fb7e09806224a4bb0f36a9447920062"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case2.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.383"
+						timeRelativeToTestModuleStartTime="00:02.320"
+						timeWallClock="18:14:02"
+						time="00:10.383"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'denme{NumPad1}{NumPad2}.' with focus on 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text"
+							id="7fb7e09806224a4bb0f36a9447920062"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case2.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.671"
+						timeRelativeToTestModuleStartTime="00:02.608"
+						timeWallClock="18:14:02"
+						time="00:10.671"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None1' at 11;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[10]"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[10]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None1"
+							id="fa3be3e87c214a569cfa6eec45b9add5"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case2.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.167"
+						timeRelativeToTestModuleStartTime="00:03.104"
+						timeWallClock="18:14:02"
+						time="00:11.167"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.UEYEOL1' at 69;27.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/button[@accessiblename='ÜYE OL']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/button[@accessiblename='ÜYE OL']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.UEYEOL1"
+							id="25c5d3ef6c0445a1bef2d553c1523130"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case2.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.666"
+						timeRelativeToTestModuleStartTime="00:03.603"
+						timeWallClock="18:14:03"
+						time="00:11.666"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox1'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[4]/element[1]/combobox[@accessiblerole='ComboBox']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[4]/element[1]/combobox[@accessiblerole='ComboBox']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox1"
+							id="6bfb9698eeab43c9b88b6318c424e96f"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case2.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.791"
+						timeRelativeToTestModuleStartTime="00:03.728"
+						timeWallClock="18:14:03"
+						time="00:11.791"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'ComboBox1' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[4]/element[1]/combobox[@accessiblerole='ComboBox']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[4]/element[1]/combobox[@accessiblerole='ComboBox']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox1"
+							id="6bfb9698eeab43c9b88b6318c424e96f"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case2.cs"
+							codeline="107"
+							loglvl="Success"
+							itemindex="6">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.946"
+						timeRelativeToTestModuleStartTime="00:03.883"
+						timeWallClock="18:14:03"
+						time="00:11.946"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None2'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None2"
+							id="260b5e68f14c4bb6ab0bf76fd035e4f0"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case2.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.050"
+						timeRelativeToTestModuleStartTime="00:03.987"
+						timeWallClock="18:14:03"
+						time="00:12.050"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'None2' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None2"
+							id="260b5e68f14c4bb6ab0bf76fd035e4f0"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case2.cs"
+							codeline="111"
+							loglvl="Success"
+							itemindex="7">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="101ms"
+					durationms="101"
+					type="teardown-container"
+					rid="24642877afc36e40"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="99ms"
+						durationms="99"
+						type="test-module"
+						rid="131f062feffbe050"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CloseBrowser"
+						displayName="CloseBrowser"
+						moduleid="37fa9c59-8d64-4ee1-84cc-954521677128"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.211"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="18:14:04"
+							time="00:12.211"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Kapat'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title>'En Trend Ürünler Türkiye''nin']/toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+								itempath="toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+								fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Kapat"
+								id="158c1ef4ac6546cf8b690c2a4971fdb4"
+								timeout="60000"
+								codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\CloseBrowser.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="5.05s"
+				durationms="5045"
+				type="test-case"
+				rid="16650fc4ecf59415"
+				totalerrorcount="0"
+				totalwarningcount="1"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="3"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Case3"
+				testcontainerid="621f1d5b-d297-4a7f-a7b4-8a77da883a93"
+				headertext="Case3"
+				displayName="Case3"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="132ms"
+					durationms="132"
+					type="setup-container"
+					rid="5f191f2c408592"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="131ms"
+						durationms="131"
+						type="test-module"
+						rid="23edc3ed1077ef0e"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="3a86b92f-2903-48d9-97b7-6730522a0163"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.313"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="18:14:04"
+							time="00:12.313"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://www.trendyol.com/' with browser 'firefox' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\OpenBrowser.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="4.82s"
+					durationms="4819"
+					type="test-module"
+					rid="2551d2d79f1de4e0"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Case3"
+					displayName="Case3"
+					moduleid="b3c976ca-a052-43de-bfb5-5d700c226a24"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.446"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="18:14:04"
+						time="00:12.446"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.GirişYap' at 9;4.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/element/element[1]/?/?/text[@accessiblename='Giriş Yap']"
+							itempath="container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/element/element[1]/?/?/text[@accessiblename='Giriş Yap']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.GirişYap"
+							id="91090ad52bc54dc4a5b9f30b03fe470e"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.251"
+						timeRelativeToTestModuleStartTime="00:00.806"
+						timeWallClock="18:14:05"
+						time="00:13.251"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.UEyeOl' at 150;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/?/?/button[@accessiblename='Üye Ol']"
+							itempath="container[1]/?/?/container/element[1]/?/?/button[@accessiblename='Üye Ol']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.UEyeOl"
+							id="16635d522ab841b88263c2ccf419cc71"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.417"
+						timeRelativeToTestModuleStartTime="00:01.972"
+						timeWallClock="18:14:06"
+						time="00:14.417"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox' at 186;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox"
+							id="7a1d51768a9741e08157a235275bd7f2"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.934"
+						timeRelativeToTestModuleStartTime="00:02.488"
+						timeWallClock="18:14:06"
+						time="00:14.934"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '  e{NumPad1}{NumPad8}{NumPad0}{NumPad5}{NumPad0}{NumPad4}{NumPad0}{NumPad0}{NumPad8}' with focus on 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox"
+							id="7a1d51768a9741e08157a235275bd7f2"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.298"
+						timeRelativeToTestModuleStartTime="00:02.852"
+						timeWallClock="18:14:07"
+						time="00:15.298"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{RMenu down}{LControlKey down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}stud.tau.edu.tr' with focus on 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox"
+							id="7a1d51768a9741e08157a235275bd7f2"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.767"
+						timeRelativeToTestModuleStartTime="00:03.321"
+						timeWallClock="18:14:07"
+						time="00:15.767"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.TextE180504008AtstudTauEduTr' at 131;106.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename='']/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']/text[@accessiblename>'  e180504008@stud.tau.edu']"
+							itempath=".//container[@accessiblename='']/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']/text[@accessiblename>'  e180504008@stud.tau.edu']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.TextE180504008AtstudTauEduTr"
+							id="2dfcf164ac26429f8b64a250c08c0b2c"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.887"
+						timeRelativeToTestModuleStartTime="00:03.442"
+						timeWallClock="18:14:07"
+						time="00:15.887"
+						level="Warn"
+						category="Click"
+						errimg="images_Task_TA__3db7ba9c\Task_TA__b30ca3f5_rxlog.jpg"
+						errthumb="images_Task_TA__3db7ba9c\Task_TA__b30ca3f5_rxlog_thumb.jpg">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+						</message>
+						<metainfo
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+							codeline="103"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.267"
+						timeRelativeToTestModuleStartTime="00:03.822"
+						timeWallClock="18:14:08"
+						time="00:16.267"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'denme{NumPad1}{NumPad2}.' with focus on 'EnTrendUEruenlerTuerkiyeninOnlineAl'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']"
+							itempath="/form[@title>'En Trend Ürünler Türkiye''nin']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Self"
+							id="e0afeacad62646a181b56b24e4a90768"
+							timeout="30000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.658"
+						timeRelativeToTestModuleStartTime="00:04.213"
+						timeWallClock="18:14:08"
+						time="00:16.658"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None2'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None2"
+							id="260b5e68f14c4bb6ab0bf76fd035e4f0"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+							codeline="111"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.812"
+						timeRelativeToTestModuleStartTime="00:04.366"
+						timeWallClock="18:14:08"
+						time="00:16.812"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'None2' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None2"
+							id="260b5e68f14c4bb6ab0bf76fd035e4f0"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+							codeline="112"
+							loglvl="Success"
+							itemindex="7">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.981"
+						timeRelativeToTestModuleStartTime="00:04.536"
+						timeWallClock="18:14:08"
+						time="00:16.981"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.LuetfenGecerliBirEmailAdresiGiriniz'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/?/?/text[@accessiblename>'Lütfen geçerli bir email adresi']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/?/?/text[@accessiblename>'Lütfen geçerli bir email adresi']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.LuetfenGecerliBirEmailAdresiGiriniz"
+							id="5130c23e674b4f8c900cb6e70ab6f05f"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+							codeline="115"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.100"
+						timeRelativeToTestModuleStartTime="00:04.654"
+						timeWallClock="18:14:08"
+						time="00:17.100"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'LuetfenGecerliBirEmailAdresiGiriniz' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/?/?/text[@accessiblename>'Lütfen geçerli bir email adresi']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/?/?/text[@accessiblename>'Lütfen geçerli bir email adresi']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.LuetfenGecerliBirEmailAdresiGiriniz"
+							id="5130c23e674b4f8c900cb6e70ab6f05f"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case3.cs"
+							codeline="116"
+							loglvl="Success"
+							itemindex="8">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="92ms"
+					durationms="92"
+					type="teardown-container"
+					rid="18058bb7b61fefc8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="91ms"
+						durationms="91"
+						type="test-module"
+						rid="765c257962d8fb2"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CloseBrowser"
+						displayName="CloseBrowser"
+						moduleid="37fa9c59-8d64-4ee1-84cc-954521677128"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.266"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="18:14:09"
+							time="00:17.266"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Kapat'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title>'En Trend Ürünler Türkiye''nin']/toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+								itempath="toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+								fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Kapat"
+								id="158c1ef4ac6546cf8b690c2a4971fdb4"
+								timeout="60000"
+								codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\CloseBrowser.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="1.2m"
+				durationms="72598"
+				type="test-case"
+				rid="1a511484672aec32"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Case4"
+				testcontainerid="73ab4ce5-71c4-4a1d-b9fd-eaeffd053532"
+				headertext="Case4"
+				displayName="Case4"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="107ms"
+					durationms="107"
+					type="setup-container"
+					rid="30613a3bad31e9c9"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="106ms"
+						durationms="106"
+						type="test-module"
+						rid="20e5df9a775d9c3c"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="3a86b92f-2903-48d9-97b7-6730522a0163"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.359"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="18:14:09"
+							time="00:17.359"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://www.trendyol.com/' with browser 'firefox' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\OpenBrowser.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1.2m"
+					durationms="72415"
+					type="test-module"
+					rid="3d7d43e23ac912"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Case4_v3"
+					displayName="Case4_v3"
+					moduleid="53e22813-a293-4167-bdd1-0d3d0b9d56a4"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Failed to find item 'Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.PushButton'. Please check that your whitelist allows Ranorex to access the process.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.468"
+						timeRelativeToTestModuleStartTime="00:00.001"
+						timeWallClock="18:14:09"
+						time="00:17.468"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.SomeText' at 5;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/element/element[1]/?/?/text[@accessiblename='']"
+							itempath="container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/element/element[1]/?/?/text[@accessiblename='']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.SomeText"
+							id="503efaad265048a293668cf8e42f9eb8"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.287"
+						timeRelativeToTestModuleStartTime="00:00.820"
+						timeWallClock="18:14:10"
+						time="00:18.287"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox' at 111;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox"
+							id="7a1d51768a9741e08157a235275bd7f2"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.362"
+						timeRelativeToTestModuleStartTime="00:01.895"
+						timeWallClock="18:14:11"
+						time="00:19.362"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'testotomasyon{NumPad2}{NumPad2}{RMenu down}{LControlKey down}{Qkey}{LControlKey up}{RMenu up}{LControlKey up}gmail.com' with focus on 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[1]/combobox[@accessiblerole='ComboBox']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.ComboBox"
+							id="7a1d51768a9741e08157a235275bd7f2"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.070"
+						timeRelativeToTestModuleStartTime="00:02.603"
+						timeWallClock="18:14:11"
+						time="00:20.070"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text' at 103;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text"
+							id="7fb7e09806224a4bb0f36a9447920062"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.568"
+						timeRelativeToTestModuleStartTime="00:03.101"
+						timeWallClock="18:14:12"
+						time="00:20.568"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'deneme' with focus on 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text"
+							id="7fb7e09806224a4bb0f36a9447920062"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.798"
+						timeRelativeToTestModuleStartTime="00:03.332"
+						timeWallClock="18:14:12"
+						time="00:20.798"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{NumPad1}{NumPad2}.' with focus on 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/element[2]/text[@accessiblerole='Text']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Text"
+							id="7fb7e09806224a4bb0f36a9447920062"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.969"
+						timeRelativeToTestModuleStartTime="00:03.502"
+						timeWallClock="18:14:12"
+						time="00:20.969"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.GİRİŞYAP' at 115;4.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container/element[1]/element[3]/element[3]/button[@accessiblename='GİRİŞ YAP']"
+							itempath="container[1]/?/?/container/element[1]/element[3]/element[3]/button[@accessiblename='GİRİŞ YAP']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.GİRİŞYAP"
+							id="3c3019eff5d44394a610381907977ca5"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.453"
+						timeRelativeToTestModuleStartTime="00:03.986"
+						timeWallClock="18:14:13"
+						time="00:21.453"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.AradığınızUeruenKategoriVeyaMarkayı' at 259;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'Kadın Butikleri, Yeni Sezon']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]//text[@accessiblename>'Aradığınız ürün, kategori']"
+							itempath="container[1]/?/?/container[@accessiblename>'Kadın Butikleri, Yeni Sezon']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]//text[@accessiblename>'Aradığınız ürün, kategori']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.AradığınızUeruenKategoriVeyaMarkayı"
+							id="15ff16fd570641b2813d922b2939b735"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.820"
+						timeRelativeToTestModuleStartTime="00:05.353"
+						timeWallClock="18:14:14"
+						time="00:22.820"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'kulaklık' with focus on 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.AradığınızUeruenKategoriVeyaMarkayı'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'Kadın Butikleri, Yeni Sezon']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]//text[@accessiblename>'Aradığınız ürün, kategori']"
+							itempath="container[1]/?/?/container[@accessiblename>'Kadın Butikleri, Yeni Sezon']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]//text[@accessiblename>'Aradığınız ürün, kategori']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.AradığınızUeruenKategoriVeyaMarkayı"
+							id="15ff16fd570641b2813d922b2939b735"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.247"
+						timeRelativeToTestModuleStartTime="00:05.780"
+						timeWallClock="18:14:15"
+						time="00:23.247"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.KulaklıkKategori' at 58;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'Kadın Butikleri, Yeni Sezon']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]/?/?/link[@accessiblename='Kulaklık Kategori']"
+							itempath="container[1]/?/?/container[@accessiblename>'Kadın Butikleri, Yeni Sezon']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]/?/?/link[@accessiblename='Kulaklık Kategori']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.KulaklıkKategori"
+							id="409795b11f504c06aafd1473ac8b07cf"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="118"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.022"
+						timeRelativeToTestModuleStartTime="00:06.555"
+						timeWallClock="18:14:15"
+						time="00:24.022"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.SepeteEkleSepeteEklendi' at 154;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']//container[@accessiblename='Tüm Ürünler - Trendyol']/element[1]/element[3]/element[6]/button[@accessiblename>'Sepete Ekle Sepete Eklend']"
+							itempath=".//container[@accessiblename='Tüm Ürünler - Trendyol']/element[1]/element[3]/element[6]/button[@accessiblename>'Sepete Ekle Sepete Eklend']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.SepeteEkleSepeteEklendi"
+							id="56b4bfea31b6497da682e602d446334e"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="122"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.689"
+						timeRelativeToTestModuleStartTime="00:08.222"
+						timeWallClock="18:14:17"
+						time="00:25.689"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Sepetim1' at 7;3.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='Tüm Ürünler - Trendyol']/element[1]/element[1]//link[@accessiblename='  Sepetim 1']/element[3]/text[@accessiblename='Sepetim']"
+							itempath="container[1]/?/?/container[@accessiblename='Tüm Ürünler - Trendyol']/element[1]/element[1]//link[@accessiblename='  Sepetim 1']/element[3]/text[@accessiblename='Sepetim']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.Sepetim1"
+							id="7c2e60b99ca64566bba8d75cef111745"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="126"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:29.489"
+						timeRelativeToTestModuleStartTime="00:12.023"
+						timeWallClock="18:14:21"
+						time="00:29.489"
+						level="Info"
+						category="Mouse"
+						errimg="images_Task_TA__3db7ba9c\Task_TA__3db7ba9c_210971fe_trace.jpg"
+						errthumb="images_Task_TA__3db7ba9c\Task_TA__3db7ba9c_210971fe_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.PushButton' at 16;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='Sepetim - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/button[2]"
+							itempath="container[1]/?/?/container[@accessiblename='Sepetim - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/button[2]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.PushButton"
+							id="0806ad21c08a4b248bfe85f3cdb11a07"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="130"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.604"
+						timeRelativeToTestModuleStartTime="01:12.137"
+						timeWallClock="18:15:21"
+						time="01:29.604"
+						level="Info"
+						category="User"
+						errimg="images_Task_TA__3db7ba9c\Task_TA__3db7ba9c_b12ae69b_trace.jpg"
+						errthumb="images_Task_TA__3db7ba9c\Task_TA__3db7ba9c_b12ae69b_trace_thumb.jpg">
+						<message>
+							Item 'PushButton' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="131"
+							loglvl="Info"
+							itemindex="12">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.758"
+						timeRelativeToTestModuleStartTime="01:12.291"
+						timeWallClock="18:15:21"
+						time="01:29.758"
+						level="Error"
+						category="Module"
+						errimg="images_Task_TA__3db7ba9c\Task_TA__3db7ba9c_6ff18023_trace.jpg"
+						errthumb="images_Task_TA__3db7ba9c\Task_TA__3db7ba9c_6ff18023_trace_thumb.jpg">
+						<message>
+							Failed to find item 'Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.PushButton'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path 'container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='Sepetim - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/button[2]' at step 'container[@accessiblename='Sepetim - Trendyol']' after 738 attempts within 1m.
+						</message>
+						<metainfo
+							stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: Task_TA.Task_TARepositoryFolders.GroupingFolder.get_PushButton() C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Task_TARepository.cs içinde: satır 1235&#13;&#10;   konum: Task_TA.Case4_v3.Ranorex.Core.Testing.ITestModule.Run() C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs içinde: satır 131&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case4_v3.cs"
+							codeline="131"
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='Sepetim - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/button[2]"
+							itempath="container[1]/?/?/container[@accessiblename='Sepetim - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/button[2]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.PushButton"
+							id="0806ad21c08a4b248bfe85f3cdb11a07"
+							timeout="90000"
+							failedStep="container[@accessiblename='Sepetim - Trendyol']"
+							bestPathPrefix=""
+							loglvl="Error"
+							itemindex="12">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="73ms"
+					durationms="73"
+					type="teardown-container"
+					rid="125b0c6d665eccb7"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="73ms"
+						durationms="73"
+						type="test-module"
+						rid="fda9225c93e7cb7"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CloseBrowser"
+						displayName="CloseBrowser"
+						moduleid="37fa9c59-8d64-4ee1-84cc-954521677128"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:29.884"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="18:15:21"
+							time="01:29.884"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Kapat'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title>'En Trend Ürünler Türkiye''nin']/toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+								itempath="toolbar[@accessiblename='Tarayıcı sekmeleri']/button[@accessiblename='Kapat']"
+								fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Kapat"
+								id="158c1ef4ac6546cf8b690c2a4971fdb4"
+								timeout="60000"
+								codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\CloseBrowser.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="57.39s"
+				durationms="57388"
+				type="test-case"
+				rid="5a75e2e25c9a1d"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Case5"
+				testcontainerid="c884f3ee-9a70-434f-8669-4fd7ee1353dd"
+				headertext="Case5"
+				displayName="Case5"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="110ms"
+					durationms="110"
+					type="setup-container"
+					rid="feedfe525de4bf8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="108ms"
+						durationms="108"
+						type="test-module"
+						rid="1f00c7a21b2149f9"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="3a86b92f-2903-48d9-97b7-6730522a0163"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:29.959"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="18:15:21"
+							time="01:29.959"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://www.trendyol.com/' with browser 'firefox' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\OpenBrowser.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="57.28s"
+					durationms="57278"
+					type="test-module"
+					rid="53c336865ddbf90"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Case5"
+					displayName="Case5"
+					moduleid="da486846-7d17-4ce9-9cfd-75e57cc33b54"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="01:30.069"
+						timeRelativeToTestModuleStartTime="00:00.001"
+						timeWallClock="18:15:21"
+						time="01:30.069"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.AradığınızUeruenKategoriVeyaMarkayı2' at 167;24.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]//text[@accessiblename>'Aradığınız ürün, kategori']"
+							itempath="container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]//text[@accessiblename>'Aradığınız ürün, kategori']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.AradığınızUeruenKategoriVeyaMarkayı2"
+							id="d18b5489704e41f98859cc7c33c5943d"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case5.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:30.780"
+						timeRelativeToTestModuleStartTime="00:00.712"
+						timeWallClock="18:15:22"
+						time="01:30.780"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'kulaklık' with focus on 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.AradığınızUeruenKategoriVeyaMarkayı2'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]//text[@accessiblename>'Aradığınız ürün, kategori']"
+							itempath="container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]//text[@accessiblename>'Aradığınız ürün, kategori']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.AradığınızUeruenKategoriVeyaMarkayı2"
+							id="d18b5489704e41f98859cc7c33c5943d"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case5.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:31.184"
+						timeRelativeToTestModuleStartTime="00:01.116"
+						timeWallClock="18:15:22"
+						time="01:31.184"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None10' at 10;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']"
+							itempath="container[1]/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/element[1]/element[1]/element/element[@accessiblerole='None']/element[1]/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None10"
+							id="f6714897c87545a792d31cd8e662fd82"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case5.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:32.162"
+						timeRelativeToTestModuleStartTime="00:02.093"
+						timeWallClock="18:15:23"
+						time="01:32.162"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None11' at 23;25.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'kulaklık Modelleri, Fiyatları']/element[1]/element[3]/element[7]"
+							itempath="container[1]/?/?/container[@accessiblename>'kulaklık Modelleri, Fiyatları']/element[1]/element[3]/element[7]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None11"
+							id="8e95b9a93bb140d38462350d3e1c6396"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case5.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:34.015"
+						timeRelativeToTestModuleStartTime="00:03.947"
+						timeWallClock="18:15:25"
+						time="01:34.015"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None11'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'kulaklık Modelleri, Fiyatları']/element[1]/element[3]/element[7]"
+							itempath="container[1]/?/?/container[@accessiblename>'kulaklık Modelleri, Fiyatları']/element[1]/element[3]/element[7]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None11"
+							id="8e95b9a93bb140d38462350d3e1c6396"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case5.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:34.199"
+						timeRelativeToTestModuleStartTime="00:04.130"
+						timeWallClock="18:15:26"
+						time="01:34.199"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'None11' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'kulaklık Modelleri, Fiyatları']/element[1]/element[3]/element[7]"
+							itempath="container[1]/?/?/container[@accessiblename>'kulaklık Modelleri, Fiyatları']/element[1]/element[3]/element[7]"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.None11"
+							id="8e95b9a93bb140d38462350d3e1c6396"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case5.cs"
+							codeline="99"
+							loglvl="Success"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:34.357"
+						timeRelativeToTestModuleStartTime="00:04.289"
+						timeWallClock="18:15:26"
+						time="01:34.357"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.LinkFavorilerim' at 18;32.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename>'kulaklık Modelleri, Fiyatları']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/?/?/link[@accessiblename='  Favorilerim']"
+							itempath="container[1]/?/?/container[@accessiblename>'kulaklık Modelleri, Fiyatları']/element[1]/element[1]/element/element[@accessiblerole='None']/element[2]/?/?/link[@accessiblename='  Favorilerim']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.LinkFavorilerim"
+							id="1b755fdd003d411e9a7ee6c3417bfc07"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case5.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:34.881"
+						timeRelativeToTestModuleStartTime="00:04.812"
+						timeWallClock="18:15:26"
+						time="01:34.881"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating NotExists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.FavorilerListenizHenuezBoş'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'En Trend Ürünler Türkiye''nin']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='Favoriler - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/element[7]/text[@accessiblename>'Favoriler Listeniz Henüz']"
+							itempath="container[1]/?/?/container[@accessiblename='Favoriler - Trendyol']/element[1]/element[3]/element[@accessiblerole='None']/element[7]/text[@accessiblename>'Favoriler Listeniz Henüz']"
+							fullname="Task_TARepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping.FavorilerListenizHenuezBoş"
+							id="5aee632821ed45acb3898df2224410ce"
+							timeout="90000"
+							codefile="C:\Users\Casper\Documents\Ranorex\RanorexStudio Projects\Task_TA\Task_TA\Case5.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:27.347"
+						timeRelativeToTestModuleStartTime="00:57.278"
+						timeWallClock="18:16:19"
+						time="02:27.347"
+						level="Error"
+						category="Module">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
